@@ -28,10 +28,7 @@ def main():
                 print("Marks should be between 0 and 100.")
                 return
 
-        average = sum(marks) / num_subjects
-        grade = calculate_grade(average)
 
-        print(f"\nAverage Marks: {average:.2f}")
         print(f"Grade: {grade}")
 
     except ValueError:
